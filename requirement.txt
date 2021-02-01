@@ -1,0 +1,17 @@
+argparse
+dill
+fire
+opencv-python
+matplotlib
+numba
+psutil
+pycocotools
+requests
+scikit-image
+scipy
+slidingwindow
+tqdm
+git+https://github.com/ppwwyyxx/tensorpack.git
+fastapi
+hypercorn
+python-multipart
