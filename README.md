@@ -7,6 +7,16 @@ This project is used for estimate the human skeletons resulting image and joint 
 
 Download and install python libraries
 ```
-sdsdasd
-asdasdasd
+$ git clone https://github.com/sornsook/openpose_project
+$ cd openpose_project
+$ pip install -r requirements.txt
 ```
+
+Install swig
+```
+$ apt-get update
+$ apt-get install swig
+$ cd tf_pose/pafprocess/
+$ swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
+```
+
