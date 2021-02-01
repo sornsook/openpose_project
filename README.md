@@ -1,7 +1,7 @@
 # Openpose project 
 
-This project is used for estimate the human skeletons resulting image and joint coordinates (csv file), where they were modified from https://github.com/ildoonet/tf-pose-estimation\
-\
+This project is used for estimate the human skeletons resulting image and joint coordinates (csv file), where they were modified from https://github.com/ildoonet/tf-pose-estimation
+
 
 # Installation
 
@@ -19,4 +19,6 @@ $ apt-get install swig
 $ cd tf_pose/pafprocess/
 $ swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
 ```
+
+**FYI:Please note that this code is run by Tensorflow 2.x and Python 3.x**
 
